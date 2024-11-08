@@ -1,0 +1,80 @@
+/* Navbar */
+.navbar{   
+position: absolute;
+height: 80px;
+left: 0px;
+right: 0px;
+top: 0px;
+background: #FF7F50;
+}
+
+.navbar-items{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 50px;    
+    position: absolute;
+    width: 577px;
+    height: 21px;
+    right: 112px;
+    top: 30px;    
+}
+
+.items{
+    list-style-type: none;
+    width: 52px;
+    height: 21px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 21px;
+    color: #14171F;  
+    flex: none;
+    order: 0;
+    flex-grow: 0;    
+}
+
+.items a{
+    text-decoration: none;
+    color:#fff;
+}
+
+.conteudo
+{
+    position: absolute;
+    height: 500px;
+    left: 0px;
+    right: 0px;
+    top: 80px; 
+    background-image: url('/images/corte.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Numans', sans-serif;
+    
+}
+
+.ctahome{    
+position: absolute;
+width: 556px;
+ height: 168px;
+left: calc(50% - 556px/2 - 330px);
+top: 239px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 72px;
+line-height: 84px;
+color: #fff;
+}
+footer{
+width: 100%;
+margin-top: 580px;
+margin-bottom: 0;
+height: 75px;
+background-color:#FF7F50;
+
+}
+
+
